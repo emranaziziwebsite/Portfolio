@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emran Azizi | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- WELCOME SCREEN -->
+    <div id="welcome-screen">
+      <div class="welcome-box">
+        <div id="typing-text"></div>
+        <div class="glow-line"></div>
+        <div class="loader-bar">
+          <div class="loader-fill"></div>
+        </div>
+        <div class="sub-text">Portfolio-System wird initialisiert...</div>
+      </div>
+    </div>
+
+    <canvas id="code"></canvas>
+
+    <!-- NAVIGATION -->
+    <nav>
+      <a href="#about">Über mich</a>
+      <a href="#certificates">Zertifikate & Ausbildung</a>
+      <a href="#skills">Fähigkeiten</a>
+      <a href="#experience">Erfahrung</a>
+      <a href="#projects-trigger">Projekte</a>
+      <a href="#contact">Kontakt & Nachricht</a>
+      <a href="index.html" class="lang-switch">🇬🇧 English</a>
+    </nav>
+
+    <!-- HERO -->
+    <div class="hero" id="about">
+      <img src="images/profile.jpg" alt="Profilbild von Emran Azizi" />
+
+      <h1>Emran Azizi</h1>
+
+      <div class="open-badge">OFFEN FÜR TEILZEIT- / WERKSTUDENTENJOB</div>
+
+      <p>
+        Ich bin Student der Softwaretechnik an der GISMA University of
+        Applied Sciences in Berlin und begeistere mich für
+        Softwareentwicklung, künstliche Intelligenz und die Entwicklung
+        praktischer Technologielösungen.
+      </p>
+
+      <p>
+        Zu meinen Interessen gehören Full-Stack-Webentwicklung,
+        Python-Programmierung, Softwaretechnik und kontinuierliches Lernen
+        durch praxisnahe Projekte. Ich löse gerne Probleme, arbeite im Team
+        und entwickle innovative Softwarelösungen.
+      </p>
+
+      <div class="hero-buttons">
+        <a class="btn" href="documents/cv.pdf" target="_blank">
+          <i class="fa-solid fa-file-pdf"></i>
+          Lebenslauf ansehen
+        </a>
+        <a class="btn" href="https://github.com/emranazizi-web" target="_blank">
+          <i class="fa-brands fa-github"></i>
+          GitHub
+        </a>
+        <a
+          class="btn"
+          href="https://www.linkedin.com/in/emran-azizi-5b2409403"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+
+    <!-- CERTIFICATES -->
+    <section id="certificates">
+      <h2>Zertifikate & Ausbildung</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>🎓 Schulabschluss</h3>
+          <p>
+            Sekundarschulausbildung mit Schwerpunkt auf Naturwissenschaften
+            und Mathematik abgeschlossen.
+          </p>
+          <div class="card-footer">
+            <span class="badge">Geprüftes Zertifikat</span>
+            <a class="btn" href="documents/diploma.jpg" target="_blank">
+              Zertifikat ansehen
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>💻 Grundlagenkurs – Softwaretechnik</h3>
+          <p>
+            Grundlagen der Softwaretechnik, Programmiergrundlagen und
+            IT-Grundkenntnisse.
+          </p>
+          <div class="card-footer">
+            <span class="badge">Geprüftes Zertifikat</span>
+            <a class="btn" href="documents/foundation-course.pdf" target="_blank">
+              Zertifikat ansehen
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>🛠 CompTIA A+ Zertifikat</h3>
+          <p>
+            Grundlagen der Computerhardware, Software und Fehlerbehebung.
+          </p>
+          <div class="card-footer">
+            <span class="badge">IT-Zertifizierung</span>
+            <a class="btn" href="documents/computer-a+.pdf" target="_blank">
+              Zertifikat ansehen
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>🌐 CompTIA Network+ Zertifikat</h3>
+          <p>
+            Grundkenntnisse zu Netzwerkkonzepten, Infrastruktur und
+            IT-Systemen.
+          </p>
+          <div class="card-footer">
+            <span class="badge">IT-Zertifizierung</span>
+            <a class="btn" href="documents/computer-n+.pdf" target="_blank">
+              Zertifikat ansehen
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACADEMIC MODULES -->
+    <section>
+      <h2>Studienmodule</h2>
+
+      <div class="card">
+        <ul>
+          <li>💻 <strong>Grundlagen der Informatik</strong></li>
+          <li>🧑‍💻 <strong>Informatik-Labor</strong></li>
+          <li>📐 <strong>Mathematik für die Informatik</strong></li>
+          <li>🧠 <strong>Grundlegende Programmierkonzepte</strong></li>
+          <li>🌐 <strong>Webentwicklung (HTML & CSS) und Python-Grundlagen</strong></li>
+          <li>🔌 <strong>IT-Systeme & Netzwerktechnik</strong></li>
+          <li>⚙️ <strong>Grundlagen der Softwaretechnik</strong></li>
+          <li>📁 <strong>Grundlagen des Projektmanagements</strong></li>
+          <li>✍️ <strong>Wissenschaftliches Schreiben & Forschungsmethoden</strong></li>
+          <li>🎓 <strong>Akademische & berufliche Entwicklung</strong></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- LANGUAGES -->
+    <section>
+      <h2>Sprachen</h2>
+
+      <div class="grid">
+        <div class="card">
+          Dari (Muttersprache)
+          <div class="progress">
+            <div class="progress-fill green" style="width: 100%"></div>
+          </div>
+        </div>
+
+        <div class="card">
+          Englisch B2
+          <div class="progress">
+            <div class="progress-fill blue" style="width: 66%"></div>
+          </div>
+        </div>
+
+        <div class="card">
+          Deutsch B1
+          <div class="progress">
+            <div class="progress-fill blue" style="width: 52%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2>Fähigkeiten</h2>
+
+      <div class="skills-group">
+        <h3 class="skills-subheading">💻 Programmier- & IT-Kenntnisse</h3>
+
+        <div class="grid">
+          <div class="card">
+            🐍 Python
+            <div class="progress">
+              <div class="progress-fill blue" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            🌐 HTML & CSS
+            <div class="progress">
+              <div class="progress-fill green" style="width: 100%"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            🔀 Git
+            <div class="progress">
+              <div class="progress-fill blue" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            🐙 GitHub
+            <div class="progress">
+              <div class="progress-fill green" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            📓 Jupyter
+            <div class="progress">
+              <div class="progress-fill blue" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            📄 LaTeX
+            <div class="progress">
+              <div class="progress-fill green" style="width: 60%"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            🤖 KI-Tools
+            <div class="progress">
+              <div class="progress-fill blue" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            🛠 CompTIA A+
+            <div class="progress">
+              <div class="progress-fill green" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            🔌 CompTIA Network+
+            <div class="progress">
+              <div class="progress-fill blue" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-group">
+        <h3 class="skills-subheading">🤝 Soziale Kompetenzen</h3>
+
+        <div class="grid">
+          <div class="card">
+            📋 Projektmanagement
+            <div class="progress">
+              <div class="progress-fill green" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            🤝 Teamarbeit
+            <div class="progress">
+              <div class="progress-fill blue" style="width: 100%"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            ✍️ Verfassen von Aufsätzen & Berichten
+            <div class="progress">
+              <div class="progress-fill green" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            💼 MS Office
+            <div class="progress">
+              <div class="progress-fill blue" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            📦 Logistikmanagement
+            <div class="progress">
+              <div class="progress-fill green" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            🍽️ Küchenhilfe
+            <div class="progress">
+              <div class="progress-fill blue" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <h2>Berufserfahrung</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>🧑‍💻 Computerlabor-Assistent</h3>
+          <div class="badge-wrap">
+            <span class="badge">IT-Support</span>
+          </div>
+          <p class="desc">
+            Unterstützte Studierende bei grundlegenden IT- und
+            Softwareproblemen, half beim Aufbau des Computerlabors und bei
+            der Aufrechterhaltung der Systemfunktionalität.
+          </p>
+          <div class="responsibilities">
+            <p><b>Aufgaben:</b></p>
+            <ul>
+              <li>Systemfehlerbehebung</li>
+              <li>Unterstützung bei der Softwareinstallation</li>
+              <li>Unterstützung der Studierenden in Laborsitzungen</li>
+            </ul>
+          </div>
+          <div class="skills">
+            <p><b>Fähigkeiten:</b></p>
+            <p>IT-Support, Fehlerbehebung, Kommunikation</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>📦 Lager- & Logistikassistent</h3>
+          <div class="badge-wrap">
+            <span class="badge">Betrieb</span>
+          </div>
+          <p class="desc">
+            Unterstützte die Bestandsverwaltung, Verpackung und Organisation
+            von Waren in einem schnelllebigen Umfeld.
+          </p>
+          <div class="responsibilities">
+            <p><b>Aufgaben:</b></p>
+            <ul>
+              <li>Bestandsorganisation</li>
+              <li>Auftragsverpackung</li>
+              <li>Lagerkoordination</li>
+            </ul>
+          </div>
+          <div class="skills">
+            <p><b>Fähigkeiten:</b></p>
+            <p>Teamarbeit, Organisation, Zeitmanagement</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>🍽️ Restaurantmitarbeiter</h3>
+          <div class="badge-wrap">
+            <span class="badge">Kundenservice</span>
+          </div>
+          <p class="desc">
+            Tätig im Kundenservice und in der Essenszubereitung, um
+            schnellen Service und Kundenzufriedenheit sicherzustellen.
+          </p>
+          <div class="responsibilities">
+            <p><b>Aufgaben:</b></p>
+            <ul>
+              <li>Kundenbetreuung</li>
+              <li>Essenszubereitung</li>
+              <li>Schnelle Serviceabwicklung</li>
+            </ul>
+          </div>
+          <div class="skills">
+            <p><b>Fähigkeiten:</b></p>
+            <p>Kommunikation, Verantwortungsbewusstsein, Teamarbeit unter Druck</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>👨‍🎓 Projektzusammenarbeit (Universität)</h3>
+          <div class="badge-wrap">
+            <span class="badge">Akademisches Projekt</span>
+          </div>
+          <p class="desc">
+            Arbeitete an akademischen Gruppenprojekten mit Schwerpunkt auf
+            Softwaretechnik-Grundlagen und Dokumentation.
+          </p>
+          <div class="responsibilities">
+            <p><b>Aufgaben:</b></p>
+            <ul>
+              <li>Gruppenkoordination</li>
+              <li>Dokumentationserstellung</li>
+              <li>Grundlegende Projektplanung</li>
+            </ul>
+          </div>
+          <div class="skills">
+            <p><b>Fähigkeiten:</b></p>
+            <p>Teamarbeit, Berichtswesen, grundlegendes Projektmanagement</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS TRIGGER -->
+    <section id="projects-trigger">
+      <h2>Projekte</h2>
+      <p>
+        Scrollen Sie, um meine Softwaretechnik-, Universitäts- und
+        Innovationsprojekte zu entdecken.
+      </p>
+    </section>
+
+    <!-- FULL SCREEN PROJECT PANEL -->
+    <div id="projects-screen" class="project-overlay">
+      <div class="projects-header">
+        <h2>Projekt-Dashboard</h2>
+        <p>Softwaretechnik • Universität • Eigene Innovation</p>
+      </div>
+
+      <div class="projects-columns">
+        <!-- ================= CODING ================= -->
+        <div class="project-column">
+          <h3>👨‍💻 Programmierung & Entwicklung</h3>
+          <div class="project-grid">
+            <div class="project-card">
+              <h4>P1</h4>
+              <p>Persönliche Portfolio-Website mit futuristischem Design</p>
+              <span class="badge">HTML CSS JS</span>
+              <a class="btn" href="#">Öffnen</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= UNIVERSITY ================= -->
+        <div class="project-column">
+          <h3>🎓 Universitätsprojekte</h3>
+          <div class="project-grid">
+            <div class="project-card">
+              <h4>Projekt 1</h4>
+              <p>Technologie-Forschungsdokumentation</p>
+              <span class="badge">Geprüft</span>
+              <a class="btn" href="projects/technology-research.pdf" target="_blank">PDF öffnen</a>
+            </div>
+
+            <div class="project-card">
+              <h4>Projekt 2</h4>
+              <p>Blockchain-Forschung und Präsentation</p>
+              <span class="badge">Geprüft</span>
+              <a class="btn" href="projects/blockchain.pdf" target="_blank">PDF öffnen</a>
+            </div>
+
+            <div class="project-card">
+              <h4>Projekt 3</h4>
+              <p>Entwicklungsprojekt der Portfolio-Website</p>
+              <span class="badge">Geprüft</span>
+              <a class="btn" href="projects/portfolio-website.pdf" target="_blank">PDF öffnen</a>
+            </div>
+
+            <div class="project-card">
+              <h4>Projekt 4</h4>
+              <p>Projektmanagement</p>
+              <span class="badge">Geprüft</span>
+              <a class="btn" href="projects/project-management.pdf" target="_blank">PDF öffnen</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= GENERAL ================= -->
+        <div class="project-column">
+          <h3>🚀 Allgemeine Projekte</h3>
+          <div class="project-grid">
+            <div class="project-card">
+              <h4>P1</h4>
+              <p>Persönliche Innovationsprojekt-Idee</p>
+              <span class="badge">Innovation</span>
+              <a class="btn" href="#">Öffnen</a>
+            </div>
+
+            <div class="project-card">
+              <h4>P2</h4>
+              <p>Open-Source-Beitragsprojekt</p>
+              <span class="badge">GitHub</span>
+              <a class="btn" href="#">Öffnen</a>
+            </div>
+
+            <div class="project-card">
+              <h4>P3</h4>
+              <p>Technologie-Forschungs- und Explorationsprojekt</p>
+              <span class="badge">Lernen</span>
+              <a class="btn" href="#">Öffnen</a>
+            </div>
+
+            <div class="project-card">
+              <h4>P4</h4>
+              <p>Konzeptdesign für zukünftige Startup-Anwendung</p>
+              <span class="badge">Startup</span>
+              <a class="btn" href="#">Öffnen</a>
+            </div>
+
+            <div class="project-card">
+              <h4>P5</h4>
+              <p>Projekt zur Produktivitätssteigerung durch Automatisierungstools</p>
+              <span class="badge">Automatisierung</span>
+              <a class="btn" href="#">Öffnen</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <h2>Kontaktiere mich</h2>
+
+      <div class="message-container">
+        <div class="message-intro">
+          <h3>🚀 Lass uns zusammenarbeiten</h3>
+          <p>
+            Ich bin derzeit offen für Werkstudentenjobs, Praktika und
+            Softwaretechnik-Möglichkeiten. Wenn Sie ein Projekt, eine Idee
+            für eine Zusammenarbeit oder eine berufliche Gelegenheit haben,
+            senden Sie mir gerne eine Nachricht.
+          </p>
+        </div>
+
+        <div class="card message-box">
+          <h3>Sende mir eine Nachricht</h3>
+
+          <form id="contact-form">
+            <input type="text" name="name" placeholder="Ihr Name" required />
+            <input type="email" name="email" placeholder="Ihre E-Mail" required />
+            <textarea
+              name="message"
+              placeholder="Schreiben Sie Ihre Nachricht..."
+              rows="6"
+              required
+            ></textarea>
+            <button class="btn" type="submit">Nachricht senden 🚀</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-box">
+        <div class="footer-social">
+          <a href="https://github.com/emranazizi-web" target="_blank" title="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/emran-azizi-5b2409403"
+            target="_blank"
+            title="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="mailto:emranazizi1002@gmail.com" title="E-Mail">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+
+        <div class="footer-text">
+          <span>
+            <strong>Emran Azizi</strong>
+            | Student der Softwaretechnik | Zukünftiger Software-Ingenieur
+          </span>
+          <small>© 2026 Emran Azizi</small>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
