@@ -10,14 +10,10 @@ const STRINGS = {
   en: {
     welcomeText: "Welcome to Emran Azizi Portfolio",
     systemReady: "System Ready",
-    sendSuccess: "Message sent successfully!",
-    sendFail: "Failed to send message.",
   },
   de: {
     welcomeText: "Willkommen im Portfolio von Emran Azizi",
     systemReady: "System Bereit",
-    sendSuccess: "Nachricht erfolgreich gesendet!",
-    sendFail: "Nachricht konnte nicht gesendet werden.",
   },
 };
 
@@ -92,36 +88,6 @@ const t = STRINGS[LANG];
   // Restart the rain from the top every 2 minutes.
   setInterval(resetDrops, 120000);
 })();
-
-/* =========================================================
-   EMAILJS CONTACT FORM
-========================================================= */
-
-function initContactForm() {
-  const form = document.getElementById("contact-form");
-  if (!form || typeof emailjs === "undefined") return;
-
-  emailjs.init("hhxgoyeEfEqFF-TxH");
-
-  form.addEventListener("submit", function (event) {
-    event.preventDefault();
-
-    emailjs
-      .send("service_emran", "template_y6hwt0b", {
-        name: form.name.value,
-        email: form.email.value,
-        message: form.message.value,
-      })
-      .then(() => {
-        alert(t.sendSuccess);
-        form.reset();
-      })
-      .catch((error) => {
-        console.error("EmailJS error:", error);
-        alert(t.sendFail);
-      });
-  });
-}
 
 /* =========================================================
    WELCOME / SPLASH SCREEN
@@ -359,7 +325,6 @@ function initTouchTargets() {
 ========================================================= */
 
 document.addEventListener("DOMContentLoaded", function () {
-  initContactForm();
   initProjectSlider();
   initMobileViewportFix();
   initTouchTargets();

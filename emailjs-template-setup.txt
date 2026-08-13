@@ -1,0 +1,39 @@
+EMAILJS TEMPLATE SETUP — copy these values into the EmailJS template editor
+============================================================================
+
+Where: EmailJS dashboard -> Email Templates -> Create New Template
+
+------------------------------------------------------------
+Settings tab
+------------------------------------------------------------
+To Email:      your new email address (the inbox you want messages in)
+From Name:     {{name}}
+Reply To:      {{email}}
+Subject:       New message from {{name}} - Portfolio Contact Form
+
+------------------------------------------------------------
+Content tab (template body)
+------------------------------------------------------------
+You have a new message from your portfolio site.
+
+Name: {{name}}
+Email: {{email}}
+
+Message:
+{{message}}
+
+------------------------------------------------------------
+After saving
+------------------------------------------------------------
+1. Copy the "Template ID" shown at the top of the template page
+   -> paste into email.js as PUBLIC_CONFIG.templateId
+
+2. Go to Email Services -> copy the "Service ID" of the service
+   you connected to your new inbox
+   -> paste into email.js as PUBLIC_CONFIG.serviceId
+
+3. Go to Account -> General -> copy your "Public Key"
+   -> paste into email.js as PUBLIC_CONFIG.publicKey
+
+The variable names above ({{name}}, {{email}}, {{message}}) must match
+exactly — those are the field names the contact form on the site sends.
