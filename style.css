@@ -48,7 +48,7 @@ canvas {
   top: 0;
   left: 0;
   z-index: -2;
-  opacity: 0.7;
+  opacity: 0.35;
   pointer-events: none;
 }
 
@@ -293,10 +293,7 @@ h2 {
   border-radius: 10px;
 }
 
-.progress-fill.green {
-  background: var(--secondary);
-}
-
+.progress-fill.green,
 .progress-fill.blue {
   background: var(--primary);
 }

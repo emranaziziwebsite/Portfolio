@@ -66,7 +66,7 @@ const t = STRINGS[LANG];
     ctx.fillStyle = "rgba(0,0,0,0.03)";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-    ctx.fillStyle = "rgba(0,247,255,0.20)";
+    ctx.fillStyle = "rgba(0,247,255,0.15)";
     ctx.font = fontSize + "px monospace";
 
     for (let i = 0; i < drops.length; i++) {
