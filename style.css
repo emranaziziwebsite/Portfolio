@@ -641,6 +641,37 @@ h2 {
   box-shadow: 0 10px 25px rgba(var(--primary-rgb), 0.25);
 }
 
+.project-card-empty {
+  background: transparent;
+  border: 1px dashed rgba(var(--primary-rgb), 0.3);
+}
+
+.project-card-empty:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.project-card-icon {
+  width: 36px;
+  height: 36px;
+  padding: 6px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  object-fit: contain;
+}
+
+.project-card-icon-fa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+  font-size: 16px;
+}
+
+.project-card-empty h4 {
+  color: var(--text-muted);
+}
+
 .project-card h4 {
   color: var(--primary);
   margin: 0;
@@ -663,6 +694,58 @@ h2 {
   font-size: 11px;
   padding: 5px 10px;
   margin-top: 5px;
+}
+
+.project-card-actions {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  width: 100%;
+  margin-top: 6px;
+}
+
+.project-card-actions .btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  margin-top: 0;
+  padding: 5px 4px;
+  border-radius: 16px;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.project-card-actions .btn i {
+  font-size: 8px;
+}
+
+.project-card-actions .btn:not(.btn-secondary) {
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  border: none;
+}
+
+.project-card-actions .btn:not(.btn-secondary):hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(var(--primary-rgb), 0.55);
+}
+
+.project-card .btn-secondary {
+  background: transparent;
+  color: var(--primary);
+  border: 1px solid rgba(var(--primary-rgb), 0.4);
+}
+
+.project-card .btn-secondary:hover {
+  background: rgba(var(--primary-rgb), 0.15);
+  border-color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: none;
 }
 
 /* ==========================================
