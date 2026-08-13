@@ -3,7 +3,6 @@
 A personal portfolio website showcasing my background, education, certificates, skills, experience, and projects as a Software Engineering student. Available in both English and German.
 
 **Live site:** https://emranaziziwebsite.github.io/Portfolio/
-**Repository:** https://github.com/emranaziziwebsite/Portfolio
 
 ## Features
 
