@@ -189,10 +189,6 @@ nav a:hover {
   .hero h1 {
     font-size: 36px;
   }
-
-  .hero-title {
-    font-size: 18px;
-  }
 }
 
 /* Section */
@@ -815,11 +811,6 @@ h2 {
   z-index: 99999;
   transition: opacity 0.9s ease;
   overflow: hidden;
-}
-
-#welcome-screen.hide {
-  opacity: 0;
-  pointer-events: none;
 }
 
 #welcome-screen::before {
